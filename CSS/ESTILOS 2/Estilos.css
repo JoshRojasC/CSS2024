@@ -1,21 +1,107 @@
-*{
+/* Reseteo de los estilos predeterminados  */
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* Estilos generales del documento */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 15px auto;
+
+
+}
+
+/* Estilos del encabezado  */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+/* Estilos de l logo de la pagina  */
+.logo img{
+    float: left;
+    width: 100%;
+    height: 100px;
     
 }
 
-
-body{
-
-    background-color: rgb(210, 210, 207);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 90%;
-    margin: 10px auto;
+/* Estilos de la barra de navegacion  */
+nav {
+    float: right;
 }
-.main{
-    background-color: aliceblue;
-    margin: 50px;
-    padding: 25px;
+
+/* Estilos de la lista de navegacion ul */
+nav ul {
+    list-style-type: none;
+}
+
+/* Estilos de los enlaces de navegacion  */
+nav ul li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    padding: 20px;
+
+}
+
+/* Estilos de los separadores */
+.separador {
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+/* Estilos de los Titulos y Parrafos */
+.subtitulo {
+    font-size: 1.5em;
+}
+
+.parrafo {
+
+    font-size: 1.2em;
+}
+
+/* Estilos de la lista */
+.lista {
+    list-style: none;
+
+}
+
+/* Estilos de los items de la lista */
+.item {
+    margin-bottom: 10px;
+
+}
+
+.item a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+
+}
+
+/* Esrilos del pie de la pagina */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 
 }
